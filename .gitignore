@@ -1,8 +1,6 @@
 
-# Created by https://www.gitignore.io/api/code,python,eclipse,intellij+all,jupyternotebooks,atom
-# Edit at https://www.gitignore.io/?templates=code,python,eclipse,intellij+all,jupyternotebooks,atom
-
-#!! ERROR: atom is undefined. Use list command to see defined gitignore types !!#
+# Created by https://www.gitignore.io/api/code,macos,python,eclipse,textmate,intellij+all,jupyternotebooks
+# Edit at https://www.gitignore.io/?templates=code,macos,python,eclipse,textmate,intellij+all,jupyternotebooks
 
 ### Code ###
 .vscode/*
@@ -180,6 +178,34 @@ ipython_config.py
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
 
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -284,5 +310,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# End of https://www.gitignore.io/api/code,python,eclipse,intellij+all,jupyternotebooks,atom
+### TextMate ###
+*.tmproj
+*.tmproject
+tmtags
 
+# End of https://www.gitignore.io/api/code,macos,python,eclipse,textmate,intellij+all,jupyternotebooks
