@@ -8,7 +8,7 @@ Sample files of [Python 3](./python3.5) is from [Michal Daniel Dobrzanski](https
 
 [Solutions] of the exercises in the book are from [Timothee Chauvin](https://github.com/TimotheeChauvin/NNDL-solutions)
 
-# Learning by do
+# Learning by doing
 
 Journey to learning AI.
 
